@@ -1,0 +1,24 @@
+= rGuiIcons
+:toc:
+:sectnums:
+ifndef::env-github[:icons: font]
+:note-caption: :paperclip:
+:important-caption: :exclamation:
+:warning-caption: :warning:
+
+== rGuiIcons
+
+
+https://www.raylib.com
+
+https://github.com/raysan5/rguiicons
+
+https://github.com/hghpublic/raysan5-rguiicons
+
+== GLFW
+
+https://www.glfw.org/
+
+GitHub::
+
+https://github.com/glfw/glfw
