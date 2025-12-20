@@ -69,3 +69,9 @@ dkms.conf
 *.js
 !src/minshell.html
 !src/shell.html
+
+# macos
+.DS_Store
+
+# cmake
+build/
