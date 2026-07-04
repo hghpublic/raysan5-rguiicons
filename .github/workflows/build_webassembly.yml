@@ -41,7 +41,7 @@ jobs:
         path: raylib
 
     - name: Setup emsdk
-      uses: mymindstorm/setup-emsdk@v14
+      uses: emscripten-core/setup-emsdk@v15
       with:
         version: 5.0.3
         actions-cache-folder: 'emsdk-cache'
