@@ -568,6 +568,7 @@ int main(int argc, char *argv[])
     const int screenHeight = 460;
 
     InitWindow(screenWidth, screenHeight, TextFormat("%s v%s | %s", toolName, toolVersion, toolDescription));
+    EnableEventWaiting();
     SetExitKey(0);
 
     // Create a RenderTexture2D to be used for render to texture
@@ -1330,7 +1331,7 @@ int main(int argc, char *argv[])
                     showExportWindow = false;
                     showExportFileDialog = true;
 
-                    strncpy(outFileName, GetFileNameWithoutExt(styleNameText), 256 - 1);
+                    snprintf(outFileName, sizeof(outFileName), "%s", GetFileNameWithoutExt(styleNameText));
                 }
                 else if (result == 0) showExportWindow = false;
             }
